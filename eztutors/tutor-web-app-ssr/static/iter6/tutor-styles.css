@@ -1,0 +1,57 @@
+header {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fad980;
+  color: rgb(48, 40, 43);
+  font-size: 2rem;
+}
+
+main {
+  margin: auto;
+  width: 20%;
+  min-width: 9.6rem;
+  border: 3px solid #ad5921;
+  padding: 0.8rem
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-kerning: normal;
+}
+
+h1,
+p,
+header,
+footer,
+main {
+  text-align: center;
+}
+
+header,
+footer,
+main {
+  background-color: rgba(241, 235, 235, 0.7);
+}
+
+body {
+  background-image: url('/static/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 32rem;
+}
+
+#button1,
+#button2 {
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  padding: 0.4rem, 0.4rem, 0rem, 0.4rem;
+  bottom: 0;
+  width: 100%;
+  height: 1.4rem;
+}
