@@ -1,4 +1,4 @@
-workspace = { members = [ "actix_base_error_handling", "tutor-web-service","tutor-nodb", "tutor-web-app-ssr"] }
+workspace = { members = [ "actix_base_error_handling", "tutor-web-service","tutor-nodb", "tutor-web-app-ssr", "async-hello", "custom-future"] }
 [package]
 name = "eztutors"
 version = "0.1.0"
